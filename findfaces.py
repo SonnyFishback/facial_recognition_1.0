@@ -1,6 +1,6 @@
 # This code is used to scan an image and gather the locations of each face that is recognized as a face (known or unknown).
 import face_recognition
-
+# Get image and store data in image variable.
 image = face_recognition.load_image_file("./images/groups/sonnyAndGroup.PNG")
 # Get location of every face recognized in selected image.
 face_locations = face_recognition.face_locations(image)
