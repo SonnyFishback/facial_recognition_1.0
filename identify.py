@@ -1,6 +1,7 @@
 import face_recognition
 from PIL import Image, ImageDraw
 from imagelocations import known_images, unknown_images, group_images
+
 # Current known image selected by index.
 current_known_image_index = 0
 # Current unknown image selected by index.
