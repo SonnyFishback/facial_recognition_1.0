@@ -1,5 +1,6 @@
 from PIL import Image
 import face_recognition
+from imagelocations import known_images, unknown_images, group_images
 
 # Get image and store data in image variable.
 image = face_recognition.load_image_file("./images/groups/sonnyAndGroup.PNG")
