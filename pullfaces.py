@@ -12,6 +12,6 @@ for each_face_location in face_locations:
     face_image = image[top:bottom, left:right]
     pil_image = Image.fromarray(face_image) 
     # Show saved image in default image viewer.
-    # pil_image.show()
+    pil_image.show()
     # Save image with the file name of "the top coordinate" + ".jpg".
-    pil_image.save(f"{top}.jpg")
+    # pil_image.save(f"{top}.jpg")
