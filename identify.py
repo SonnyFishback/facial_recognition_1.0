@@ -5,7 +5,7 @@ from imagelocations import known_images, unknown_images, group_images
 # Current known image selected by index.
 current_known_image_index = 0
 # Current unknown image selected by index.
-current_unknown_image_index = 1
+current_unknown_image_index = 0
 # Get known image and store data in current_known_image variable.
 current_known_image = face_recognition.load_image_file(known_images[current_known_image_index])
 # Get known image engonding data and store it in variable current_known_image_encodings.

@@ -4,7 +4,7 @@ from imagelocations import known_images, unknown_images, group_images
 
 def find_faces():
     # Current image selected by index.
-    current_image_index = 2
+    current_image_index = 3
     # Get image and store data in image variable.
     image = face_recognition.load_image_file(group_images[current_image_index])
     # Get location of every face recognized in selected image.
