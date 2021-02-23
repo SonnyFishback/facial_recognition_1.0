@@ -1,12 +1,16 @@
-# facial_recognition_1.0
-Facial recognition
+# Python Facial recognition program
+This python script is able to determine if a face is a "known" or "unknown" face when given a set of "known" faces in images and a set of random images.
 
-This program is able to:
-- Identify any face in any given image.
-- Pull each individual face form any given image.
-- Find a "known" face in any given image with unknown faces.
+**Your computer must have a python interpreter to run this program.**
+```
 
+## Technologies used:
 
-In versions 1.1 this program will be able to:
-- Draw a box around each known and unknow face and label the face as "unknown" or the name of the known face.
-- Run facial recognition in real time videos.
+- Python 3
+- [ageitgey/face_recognition](https://github.com/ageitgey/face_recognition)
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
